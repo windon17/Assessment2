@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Sweepstakes</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <script src="http://localhost:35729/livereload.js"></script>
+</head>
+
+<body>
+    <div class="main">
+        <div class="nav">
+            <div class="main-title">
+                <h1>Bioplex</h1>
+                <h2>Fusce a congue nunc. Proin iaculis accumsan mi, eget sodales orci.</h2>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Recipes</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <div class="search">
+                    <input type="search" />
+                    <button>Search</button>
+                </div>
+            </div>
+        </div>
+        <div class="form-header">
+            <div class="info">
+                <h1>Blender Sweepstakes</h1>
+                <img src="images/blender.jpg" />
+                <p>
+                    You are about to enter to win a brand new Bioplex SuperMax 1900. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum
+                    imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa.
+                    Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra,
+                    per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc.
+                </p>
+            </div>
+            <span class="messages" id="messages"></span>
+        </div>
+        <form>
+            <div class="input-group">
+                <label for="firstName">First Name</label>
+                <input type="text" name="firstName" id="firstName" placeholder="First Name" />
+                <span class="error requiredMsg"></span>
+            </div>
+            <div class="input-group">
+                <label for="lastName">Last Name</label>
+                <input type="text" name="lastName" id="lastName" placeholder="Last Name" />
+                <span class="error requiredMsg"></span>
+            </div>
+            <div class="input-group">
+                <label for="emailAddress">Email Address</label>
+                <input type="text" name="emailAddress" id="emailAddress" placeholder="Email Address" />
+
+                <span class="error requiredMsg"></span>
+
+            </div>
+            <div class="input-group">
+                <label for="referral">How did you find us?</label>
+                <select name="" id="referral">
+                            <option>Friend or family member</option>
+                            <option  selected="selected">Web search</option>
+                            <option>Radio advertisement</option>
+                            <option>TV advertisement</option>
+                            <option>Other</option>
+                        </select>
+
+                <span class="error requiredMsg"></span>
+            </div>
+            <div class="input-group" class="select">
+                <label for="why">Why do you need this blender?</label>
+                <input type="text" name="why" id="why" placeholder="Why you need this" />
+                <span class="error requiredMsg"></span>
+            </div>
+            <div class="check-input">
+                <label for="terms">By checking this box you accept our terms and conditions.</label>
+                <input type="checkbox" name="terms" id="terms" />
+                <span class="error requiredMsg"></span>
+            </div>
+            <div class="center">
+                <button id="btnSubmit">Submit</button>
+                <button id="btnReset">Reset</button>
+            </div>
+        </form>
+    </div>
+    <div class="footer">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Recipes</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="scripts/main.js"></script>
+
+</body>
+
+</html>
